@@ -1,20 +1,19 @@
 import './App.css'
-import { Router,Routes,Route } from 'react-router'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Layout from './layouts/layouts.jsx'
-
+import 'flowbite';
+import './index.css';
 
 
 function App() {
-
   return (
     <>
       <Router>
-          <Routes>
-              <Route path='/' element={<Layout />}>
-                    
-              </Route>
-          </Routes>
-      </Router>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+        </Route>
+      </Routes>
+    </Router>
     </>
   )
 }
