@@ -5,12 +5,13 @@ import { AuthProvider } from "react-oidc-context";
 import App from "./App"; 
 import 'flowbite';
 
+
 const cognitoAuthConfig = {
-  authority: "https://cognito-idp.us-east-1.amazonaws.com/us-east-1_KfTXczGhO",
-  client_id: "6qnushs7590vstg41al3k9ke6q",
+  authority: "https://cognito-idp.us-east-1.amazonaws.com/us-east-1_RdWE7QJJG",
+  client_id: "333ervd99rdgcc0p98ov4vgj6i",
   redirect_uri: "http://localhost:5173/",
   response_type: "code",
-  scope: "email openid phone",
+  scope: "phone openid email",
 };
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
