@@ -1,18 +1,16 @@
 # Bookio-Web
 
-Bookio-Web is the frontend of the Bookio platform, designed to provide a seamless user experience for managing and exploring books. Built with modern web technologies, the platform ensures a responsive and interactive interface.
+Bookio-Web is the frontend of the Bookio platform, designed to provide a seamless user experience for managing and exploring books. Built with modern web technologies, the platform ensures a responsive and interactive interface
 
 ---
+
 ## Table of Contents
 
 - [About the Project](#about-the-project)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Folder Structure](#folder-structure)
-- [Contributing](#contributing)
-- [License](#license)
+
 ---
 
 ## About the Project
